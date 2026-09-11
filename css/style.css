@@ -1,0 +1,42 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+footer{
+    background-color:greenyellow;
+    font-size: 10px
+}
+#red{
+    color:red;
+}
+#average{
+    color:blue;
+}
+.average{
+    color:green;
+}
+#reprovado{
+    color:red;
+}
+header{
+    background-color:lightblue;
+}
+table{
+    background-color:lightgray;
+    font-size: 25px;
+}
+#tables{
+    color:blue;
+    font-size: 55px;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+tbody{
+    
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>HTML na prática</h1>
+        <p>Estou montando esse site para testar o meu conhecimento em  html.</p>
+        <p>Vou tentar colocar o máximo de coisas que eu lembrar aqui.</p>
+
+        
+    </header>
+    <main>
+        <h2>Marcações</h2>
+        <p><strong>Esse vai estar marcado em negrito.</strong></p>
+        <p><mark>Esse vai estar marcado com marca Texto.</mark></p>
+        <p><em>Esse vai estar marcado em itálico.</em></p>
+        <p><del>Esse vai estar marcado com um risco como se tivesse sido deletado.</del></p>
+        <p><ins>Esse vai estar sublinhado.</ins></p>
+
+    
+        <h2 id="tables">Tabelas</h2>
+        <table border="2">
+            <caption>Notas de alunos</caption>
+            <thead>
+                <tr>
+                    <th>Alunos</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th id="average">Média</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Aluno 1</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td class="average">9</td>
+                    <td rowspan="3">Aprovados</td>
+
+                </tr>
+                <tr>
+                    <td>Aluno 2</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td class="average">7</td>
+                </tr>
+                <tr>
+                    <td>Aluno 3</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td class="average">8</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">Aluno 4</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td id="reprovado">4,5</td>
+                    <td>Reprovado</td>
+                </tr>
+            </tfoot>
+
+
+
+        </table>
+    </main>
+
+    <footer>
+        <h2>Considerações finais</h2>
+        <p id="red">Depois vou começar a estilizar esse meu site.</p>
+        <p>Por enquanto estou gostando do meu desempenho.</p>
+    </footer>
+
+
+
+    
+</body>
+</html>
